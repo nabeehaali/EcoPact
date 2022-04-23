@@ -1,0 +1,15 @@
+#lottie {
+   border-style: solid;
+border: 7px solid #99cc66;
+border-radius: 25px;
+overflow: hidden;
+    height: 1015px;
+width: 577px;
+}
+
+@media only screen and (max-width: 576px) {
+#lottie {
+height: 540px;
+width: 310px;
+}
+}

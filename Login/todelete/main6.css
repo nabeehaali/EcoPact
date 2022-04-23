@@ -1,0 +1,58 @@
+@media only screen 
+    and (min-device-width: 414px) 
+    and (min-device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) 
+    and (orientation: portrait) { 
+    /* styles */
+}
+
+body
+{
+    background-image: url('img-6.png');
+	background-size: cover;
+}
+
+.submit-button {
+position: absolute;
+width: 600px;
+height: 100px;
+left: 45px;
+top: 578px;
+background: #6E8658;
+border-radius: 15px;
+font-family: Sniglet;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 30px;
+position: fixed;
+transform: translate(25%, 800%);
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.submit-button:hover {
+    background-color: #FFFFFF;
+    color: #6E8658;
+    transition: 0.5s;
+}
+
+h1
+{
+font-size: 100px;
+text-align: center;
+font-family: 'Sniglet', cursive;
+transform: translate(0%, 600%);
+}
+
+h2
+{
+font-size: 50px;
+text-align: center;
+margin-left: 10%;
+margin-right: 10%;
+font-family: 'Sniglet', cursive;
+transform: translate(0%, 400%);
+}

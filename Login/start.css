@@ -1,0 +1,527 @@
+body {
+    background-attachment: fixed;
+    background-color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position: left;
+    overflow: auto;
+}
+
+input[type=text],
+input[type=password] {
+    height: auto;
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid #71A306;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    border-radius: 0px;
+    color: #71A306;
+    background-color: transparent;
+    font-family: 'Blinker', sans-serif;
+    font-weight: 200;
+}
+
+
+.form-1 {
+    font-family: 'Blinker', sans-serif;
+    font-weight: 300;
+    color: #71A306;
+    position: fixed;
+    left: 25%;
+    bottom: 12%;
+    transform: translate(-50%, 0%);
+}
+
+.btn-primary,
+.submit-button {
+    top: 0%;
+    transform: translate(0%, 50%);
+    font-size: 100%;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: 2px solid #71A306;
+    color: #99BE05;
+    width: auto;
+    font-family: 'Blinker', sans-serif;
+    text-transform: uppercase;
+    border-radius: 150px;
+    display: block;
+}
+
+.btn-primary:hover,
+.btn-primary:any-link,
+.submit-button:hover {
+    background-color: #5A821A;
+    color: #FFFFFF;
+
+}
+
+.btn-secondary {
+    padding: 3% 10%;
+    top: 180%;
+    margin-bottom: 2%;
+    font-size: 80%;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: 2px solid #71A306;
+    color: #99BE05;
+    width: 60%;
+    transform: translate(-50%, 0%);
+    margin-left: 50%;
+    font-family: 'Blinker', sans-serif;
+    text-transform: uppercase;
+    border-radius: 50px;
+    display: block;
+}
+
+.btn-secondary:hover,
+.btn-secondary:any-link {
+    background-color: #5A821A;
+    color: #FFFFFF;
+    border: 2px solid #71A306;
+}
+
+input:focus {
+    outline: none;
+}
+
+.logo {
+    position: fixed;
+    display: block;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.image0 {
+    position: fixed;
+    display: block;
+    left: 50%;
+    padding-top: 5px;
+    transform: translate(-50%, 0%);
+    z-index: -5;
+}
+
+.image2 {
+    width: 500px;
+    font-size: 50px;
+    top: 0%;
+    left: 100%;
+    transform: translate(-100%, 0%);
+    position: fixed;
+}
+
+h1 {
+    font-family: 'Blinker', sans-serif;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: 'Blinker', sans-serif;
+    font-weight: 300;
+}
+
+label {
+    font-size: 100%;
+}
+
+.col-md-4 {
+    text-align: center;
+    color: black;
+    font-family: 'Blinker', sans-serif;
+    font-weight: 300;
+    width: 100%;
+    color: #71A306;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, 150%);
+    position: fixed;
+}
+
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 576px) {
+
+    .logo {
+        width: 30%;
+        z-index: 10;
+    }
+
+    #logo {
+        top: 2%;
+    }
+
+    .image0 {
+        width: 100%;
+        z-index: -5;
+    }
+
+    .image2 {
+        width: 100%;
+    }
+
+    input[type=text],
+    input[type=password] {
+        height: auto;
+        width: 70%;
+        border: none;
+        border-bottom: 1px solid #71A306;
+        padding-bottom: 1%;
+        padding-left: 1%;
+        border-radius: 0px;
+        color: #71A306;
+        background-color: transparent;
+        font-family: 'Blinker', sans-serif;
+        font-weight: 200;
+    }
+
+    .form-1 {
+        color: black;
+        font-family: 'Blinker', sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+        width: 90%;
+        height: auto;
+        color: #71A306;
+        left: 55%;
+        bottom: 12%;
+        transform: translate(-50%, 0%);
+        position: fixed;
+        display: grid;
+    }
+
+    h1 {
+        font-size: 350%;
+    }
+
+    h3 {
+        font-size: 130%;
+    }
+
+    label {
+        font-size: 150%;
+    }
+
+    .col-md-4 {
+        width: 100%;
+        top: 65%;
+        display: block;
+    }
+
+    .btn-primary,
+    .submit-button {
+        width: 60%;
+        padding: 10px 10px;
+        font-size: 150%;
+        margin-top: 5px;
+        display: block;
+    }
+
+    .btn-secondary {
+        width: 80%;
+        font-size: 100%;
+        padding: 15px 15px;
+        margin-top: 5px;
+    }
+
+    #welcome {
+        margin-top: -25%;
+    }
+
+    #plant {
+        top: 10%;
+        display: block;
+    }
+
+    #opt {
+        top: 48%;
+
+    }
+}
+
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .logo {
+        width: 50%;
+        margin-top: 15%;
+    }
+
+    .image0 {
+        width: 170%;
+        margin-top: 22%;
+    }
+
+    .image2 {
+        width: 100%;
+    }
+
+    .form-1 {
+        color: black;
+        font-family: 'Blinker', sans-serif;
+        font-weight: 300;
+        font-size: 50px;
+        width: 150%;
+        height: auto;
+        color: #71A306;
+        left: 80%;
+        bottom: 12%;
+        transform: translate(-50%, 0%);
+        position: fixed;
+        display: grid;
+    }
+
+
+    input[type=text],
+    input[type=password] {
+        height: auto;
+        width: 30%;
+        border: none;
+        border-bottom: 1px solid #71A306;
+        padding-bottom: 1%;
+        padding-left: 1%;
+        border-radius: 0px;
+        color: #71A306;
+        background-color: transparent;
+        font-family: 'Blinker', sans-serif;
+        font-weight: 200;
+    }
+
+
+    h1 {
+        font-size: 400%;
+    }
+
+    h3 {
+        font-size: 120%;
+    }
+    
+    label {
+        font-size: 150%;
+    }
+
+    .col-sm-4 {
+        top: 25%;
+        display: block;
+    }
+
+    .col-md-4 {
+        top: 35%;
+        display: block;
+    }
+
+    .col-lg-4 {
+        font-size: 100%;
+        display: block;
+        top: 60%;
+    }
+
+    .col-xl-4 {
+        font-size: 110%;
+        display: block;
+    }
+
+    .btn-primary, .submit-button {
+        width: 20%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 150%;
+        margin-top: 5px;
+        display: block;
+    }
+
+    .btn-secondary {
+        width: 90%;
+        font-size: 110%;
+        padding: 20px 20px;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .logo {
+        width: 100%;
+        margin-top: -20%;
+    }
+
+
+    .image0 {
+        width: 34824829%;
+        margin-top: 70%;
+    }
+
+    .image2 {
+        width: 100%;
+    }
+
+    .form-1 {
+        color: black;
+        font-family: 'Blinker', sans-serif;
+        font-weight: 300;
+        font-size: 50px;
+        width: 100%;
+        height: auto;
+        color: #71A306;
+        left: 55%;
+        bottom: 12%;
+        transform: translate(-50%, 0%);
+        position: fixed;
+        display: grid;
+    }
+
+    input[type=text],
+    input[type=password] {
+        height: auto;
+        width: 60%;
+        border: none;
+        border-bottom: 1px solid #71A306;
+        padding-bottom: 1%;
+        padding-left: 1%;
+        border-radius: 0px;
+        color: #71A306;
+        background-color: transparent;
+        font-family: 'Blinker', sans-serif;
+        font-weight: 200;
+    }
+
+
+    .col-sm-4 {
+        top: 27%;
+        width: 70%;
+        font-size: 130%;
+        display: block;
+    }
+
+    .col-md-4 {
+        top: 27%;
+        width: 80%;
+        display: block;
+    }
+
+
+    .col-lg-4 {
+        top: 50%;
+        width: auto;
+        font-size: 130%;
+        display: block;
+    }
+
+
+    .col-xl-4 {
+        top: 57%;
+        width: 100%;
+        font-size: 130%;
+        display: block;
+    }
+
+    h1 {
+        font-size: 210%;
+    }
+
+    h3 {
+        font-size: 100%;
+    }
+
+    label {
+        font-size: 90%;
+    }
+
+    .btn-primary,
+    .submit-button {
+        width: 30%;
+        font-size: 100%;
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 5px;
+    }
+
+    .btn-secondary {
+        width: 30%;
+        padding: 15px 15px;
+        font-size: 90%;
+    }
+}
+
+
+
+@media only screen and (min-width: 993px) {
+    .logo {
+        width: 30%;
+    }
+
+    #logo {
+        top: 5%;
+    }
+
+    .image0 {
+        width: 80%;
+        margin-top: 0%;
+    }
+
+    .image2 {
+        width: 50%;
+    }
+
+    .col-md-4 {
+        top: 27%;
+        width: 100%;
+        display: block;
+    }
+
+    .form-1 {
+        font-family: 'Blinker', sans-serif;
+        font-weight: 300;
+        font-size: 50px;
+        width: 100%;
+        height: auto;
+        color: #71A306;
+        left: 55%;
+        bottom: 12%;
+        transform: translate(-50%, 0%);
+        position: fixed;
+    }
+
+    h1 {
+        font-size: 250%;
+    }
+
+    h3 {
+        font-size: 300%;
+    }
+
+    label {
+        font-size: 90%;
+    }
+
+    .btn-primary,
+    .submit-button {
+        width: 15%;
+        font-size: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 5px;
+    }
+
+    .btn-secondary {
+        width: 60%;
+        top: 150%;
+        padding: 15px 15px;
+        font-size: 130%;
+    }
+
+    #welcome {
+        margin-top: 13%;
+    }
+
+    #plant {
+        top: 15%;
+    }
+
+    #opt {
+        top: 45%;
+
+    }
+}

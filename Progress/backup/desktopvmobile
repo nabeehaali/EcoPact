@@ -1,0 +1,24 @@
+<script>
+
+
+var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+		var element = document.getElementById('right');
+		if (isMobile) {
+  			var xhttp = new XMLHttpRequest();
+
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        // server sent data successfully in this.responseText variable
+        document.getElementById("right").innerHTML = this.responseText;
+    }
+};
+
+//Request data from a server
+xhttp.open("GET", "include.php", true);
+xhttp.send(); 
+		} else {
+			element.innerHTML = "You are currently using a Desktop. For full functionality, please use our site on a mobile device.";
+		}
+
+
+</script>

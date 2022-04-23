@@ -1,0 +1,75 @@
+@media only screen 
+    and (min-device-width: 414px) 
+    and (min-device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) 
+    and (orientation: portrait) { 
+    /* styles */
+}
+
+body
+{
+    background-image: url('img-2.png');
+	background-size: cover;
+}
+
+.submit-button-1 {
+position: absolute;
+width: 600px;
+height: 100px;
+left: 45px;
+top: 578px;
+background: #6E8658;
+border-radius: 15px;
+font-family: Sniglet;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 30px;
+position: fixed;
+transform: translate(25%, 925%);
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.submit-button-1:hover {
+    background-color: #FFFFFF;
+    color: #6E8658;
+    transition: 0.5s;
+}
+
+.submit-button-2 {
+position: absolute;
+width: 600px;
+height: 100px;
+left: 45px;
+top: 578px;
+background: #6E8658;
+border-radius: 15px;
+font-family: Sniglet;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 30px;
+position: fixed;
+transform: translate(25%, 750%);
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.submit-button-2:hover {
+    background-color: #FFFFFF;
+    color: #6E8658;
+    transition: 0.5s;
+}
+
+
+.logo {
+position: fixed;
+top: 10%;
+left: 25%;
+width: 45%;
+}
